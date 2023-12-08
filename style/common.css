@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "bmdh";
+  src: url("../font/BMDOHYEON.ttf");
+}
+#wrap {
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "bmdh";
+}
+.btn_style1 {
+  background-color: #888;
+  color: #fff;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
