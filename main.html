@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>myCloset</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/common.css" />
     <link rel="stylesheet" href="./style/main.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
   <body>
     <div id="wrap">
@@ -14,7 +20,53 @@
         <div class="logo_box">오늘 뭐 입지?</div>
         <div class="logout_box">LOGOUT</div>
       </header>
-      <div class="container"></div>
+      <div class="container">
+        <div class="home_section">
+          <div class="section_title">과거의 나</div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="temp_section">
+                  <div class="low_temp">최저 기온: -1°C</div>
+                  <div class="high_temp">최고 기온: 10°C</div>
+                </div>
+                <div class="clothes_info_section">
+                  <div class="top_info">상의: 회색 후드티</div>
+                  <div class="bottom_info">하의: 녹색 트레이닝복</div>
+                  <div class="outer_info">아우터: 검정 패딩</div>
+                </div>
+                <div class="feedback_section">피드백: 좀 더웠다.</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="temp_section">
+                  <div class="low_temp">최저 기온: -5°C</div>
+                  <div class="high_temp">최고 기온: -1°C</div>
+                </div>
+                <div class="clothes_info_section">
+                  <div class="top_info">상의: 흰색 맨투맨</div>
+                  <div class="bottom_info">하의: 흰 바지</div>
+                  <div class="outer_info">아우터: 뽀글이</div>
+                </div>
+                <div class="feedback_section">피드백: 딱 좋았다.</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="temp_section">
+                  <div class="low_temp">최저 기온: -5°C</div>
+                  <div class="high_temp">최고 기온: 15°C</div>
+                </div>
+                <div class="clothes_info_section">
+                  <div class="top_info">상의: 회색 맨투맨</div>
+                  <div class="bottom_info">하의: 회색 트레이닝복</div>
+                  <div class="outer_info">아우터: 검정 롱패딩</div>
+                </div>
+                <div class="feedback_section">
+                  피드백: 아침엔 딱 좋았는데, 오후 되니까 더웠다...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer class="footer">
         <div class="today_temp_info_box">
           <div class="low_temp">최저 기온: -1°C</div>
@@ -30,5 +82,7 @@
         </nav>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
