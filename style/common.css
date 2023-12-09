@@ -5,6 +5,9 @@
 body {
   font-family: "bmdh";
 }
+input {
+  font-family: "bmdh";
+}
 #wrap {
   width: 100%;
   max-width: 480px;
@@ -37,6 +40,11 @@ body {
   width: 100%;
   padding: 30px;
   box-sizing: border-box;
+}
+.header .logo_box a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .header .logout_box {
   color: #ccc;
@@ -84,6 +92,9 @@ body {
   align-items: center;
 }
 .section_title {
-  font-size: 27px;
+  font-size: 25px;
   margin-bottom: 27px;
+}
+.container_content {
+  width: 80%;
 }

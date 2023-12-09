@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myCloset</title>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+    <link rel="stylesheet" href="./style/today.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <header class="header">
+        <div class="logo_box">
+          <a href="./main.html">오늘 뭐 입지?</a>
+        </div>
+        <div class="logout_box">LOGOUT</div>
+      </header>
+      <div class="container">
+        <div class="container_content">
+          <div class="section_title">오늘의 착장</div>
+          <form class="ootd_form" method="post">
+            <div class="input_box">
+              <label for="input_top">상의</label>
+              <input type="text" name="top" id="input_top" />
+            </div>
+            <div class="input_box">
+              <label for="input_bottom">하의</label>
+              <input type="text" name="bottom" id="input_bottom" />
+            </div>
+            <div class="input_box">
+              <label for="input_outer">아우터</label>
+              <input type="text" name="outer" id="input_outer" />
+            </div>
+            <div class="btn_ootdAdd">오늘의 착장 등록</div>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="today_temp_info_box">
+          <div class="low_temp">최저 기온: -1°C</div>
+          <div class="high_temp">최고 기온: 10°C</div>
+        </div>
+        <nav class="nav_box">
+          <ul class="nav_list">
+            <li><a href="./main.html" class="nav_item">HOME</a></li>
+            <li>
+              <a href="./clothes.html" class="nav_item">CLOTHES</a>
+            </li>
+            <li>
+              <a href="./today.html" class="nav_item nav_active">TODAY</a>
+            </li>
+            <li><a href="./past.html" class="nav_item">PAST</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
